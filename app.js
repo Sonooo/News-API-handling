@@ -1,47 +1,42 @@
-// document.write('hello world')
-// console.log("hello world")
 
 
-// function add(num1,num2){
-//     // return num1+num2
-//     console.log(num1+num2);
-// }
-
-// add(4,4)
 
 
-//variables
-// var
-// let
-// const
-
-//datatypes
-// String
-// Number
-// Boolean
 
 
-//conditional
-// if
-// else if
-// else
-// switch
 
 
-// loops
-// while
-// for
-
-// ||  &&
 
 
-//data structures 
-
-// Array
-// String
 
 
-// objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
