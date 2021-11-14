@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <style>.img-fluid{ 
+        float: none;
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 60%;
+        height: auto;
+    }</style>
+    <title>simple news app </title>
+</head>
+<body>
+    <div id="container" class="container">
+        
+<h1 class="text-center bg-success">News API Handling</h1>
+<div class="row">
+    <div class="col-sm">
+        <button onclick="ShowNews(`in`)" class="success btn-success btn-block"> INDIA</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`us`)"  class="success btn-success btn-block"> USA</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`au`)"  class="success btn-success btn-block"> australia</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+        <button onclick="ShowNews(`ru`)" class="success btn-success btn-block"> Russia</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`nz`)"  class="success btn-success btn-block"> Newzeland</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`jp`)"  class="success btn-success btn-block"> japan</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+        <button onclick="GlobalNews()" class="success btn-success btn-block"> Afganistan</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`ae`)"  class="success btn-success btn-block"> UAE</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="GlobalNews()"  class="success btn-success btn-block"> Armenia</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+        <button onclick="GlobalNews()" class="success btn-success btn-block"> Antarctica</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`ar`)"  class="success btn-success btn-block"> Argentina</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`at`)"  class="success btn-success btn-block"> Austria</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+        <button onclick="ShowNews(`ch`)" class="success btn-success btn-block"> Switzerland</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`cn`)"  class="success btn-success btn-block"> China</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`eg`)"  class="success btn-success btn-block"> Egypt</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+        <button onclick="ShowNews(`es`)" class="success btn-success btn-block"> Spain</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="GlobalNews()"  class="success btn-success btn-block"> fiji</button>
+    </div>
+    <div class="col-sm">
+        <button onclick="ShowNews(`fr`)"  class="success btn-success btn-block"> France</button>
+    </div>
+  </div>
+
+
+
+    </div>
+    <button onclick="GlobalNews()"  class="success btn-info btn-block">Global News Updates</button>
+    <img src="https://cdn.pixabay.com/photo/2019/04/29/16/11/new-4166472_960_720.png" alt=""  class="img-fluid"  >
+
+
+    <script src="./app.js"></script>
+    <!-- <script src="./regex.js"></script> -->
+
+</body>
+</html>
