@@ -3,7 +3,7 @@
 const ShowNews =(country)=>{
 
     
-fetch(`https://newsapi.org/v2/top-headlines?country=${country}&apiKey=2be01d9455a54f9f86c3e324b33bb653`)
+fetch(`https://newsapi.org/v2/top-headlines?country=${country}&apiKey=`)
 .then(response => response.json())
 .then(data => {
     //data.articles[1].title
